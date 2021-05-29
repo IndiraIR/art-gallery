@@ -63,5 +63,5 @@ const contactsSchema = new mongoose.Schema({
     }]   
 })
 
-const contactsModel = mongoose.Model('contact', contactsSchema)
+const contactsModel = mongoose.model('contact', contactsSchema)
 module.exports = contactsModel
